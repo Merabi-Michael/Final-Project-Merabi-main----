@@ -1,0 +1,33 @@
+.btn:hover {
+  box-shadow: 6px 12px 20px blueviolet;
+}
+.smallimgdiv:hover {
+  box-shadow: 6px 12px 20px  rgba(252,70,107,1) ;
+}
+.btn2:hover {
+  box-shadow: 0 0 10px #4287f5, 0 0 40px #4287f5, 0 0 80px #4287f5, 0 0 100px #4287f5;
+}
+.container .box:hover .ImgBox img {
+  transform: scale(1.2);
+}
+.container .box:hover .details {
+  transform: scale(1);
+}
+.container1 a::before,
+.container1 a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #CE5937;
+  background: -moz-radial-gradient(center, #CE5937 0%, #1C6EA4 55%, #C59237 100%);
+  background: -webkit-radial-gradient(center, #CE5937 0%, #1C6EA4 55%, #C59237 100%);
+  background: radial-gradient(ellipse at center, #CE5937 0%, #1C6EA4 55%, #C59237 100%);
+  transition: 0.5s;
+}
+.container1 a:hover:before {
+  inset: -3px;
+}
+.container1 a:hover::after {
+  inset: -3;
+  filter: blur(10px);
+}

@@ -1,0 +1,607 @@
+/* start header */
+.fa-spin {
+  color:#5EB6E1;
+  margin-right: 10px;
+}
+.header-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 25px;
+  width: 100%;
+}
+.nav-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.nav-ul li {
+  margin-right: 72px;
+  width: 100%;
+}
+nav {
+  margin-right: 200px;
+}
+.logo {
+  margin-left: 144px;
+  margin-right: 250px;
+  max-width: 147px;
+  width: 100%;
+}
+.tel {
+  max-width: 130px;
+  width: 100%;
+  color:#000000;
+  margin-top: 10px;
+  font-family: "Futura PT Demi";
+}
+.li11,
+.tel {
+  white-space: nowrap;
+}
+.li1 {
+  max-width: 63px;
+  width: 100%;
+  height: 19px;
+  color:#000000;
+  font-size: 24px;
+  font-family: "Futura PT Demi";
+}
+.div1 {
+  display: flex;
+  width: 100%;
+}
+/* start section */
+.section-img {
+  background-image: url(../Images/girl-resting.jpg);
+  width: 100%;
+  height: 916px;
+  top: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.P {
+  position: absolute;
+  height: 31px;
+  top: 200px;
+  left: 100px;
+  height: 31px;
+  color: #fff;
+  font-size: 23px;
+  font-family: "Futura PT Medium"; 
+  text-transform: capitalize;
+}
+.miniP {
+  max-width: 700px;
+}
+.P1 {
+  position: absolute;
+  height: 73px;
+  top: 240px;
+  left: 100px;
+  height: 73px;
+  font-size: 50px;
+  line-height: normal;
+  color: #fff;
+  font-family: "Futura PT Medium"; 
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+/* icon-management */
+.usediv {
+  position: absolute;
+  max-width: 35px;
+  width: 100%;
+  height: 30px;
+  top: 430px;
+  background-color: #F6F7FB;
+  border-bottom: 2px solid blueviolet;
+  border-radius: 0px 10px 0px 0px;
+}
+.globe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.usediv1 {
+  position: absolute;
+  max-width: 35px;
+  width: 100%;
+  height: 30px;
+  top: 460px;
+  background-color: #F6F7FB;
+  border-bottom: 2px solid blueviolet;
+}
+.fb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.usediv2 {
+  position: absolute;
+  max-width: 35px;
+  width: 100%;
+  height: 30px;
+  top: 490px;
+  background-color: #F6F7FB;
+  border-bottom: 2px solid blueviolet;
+}
+.twitter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.usediv3 {
+  position: absolute;
+  max-width: 35px;
+  width: 100%;
+  height: 30px;
+  top: 520px;
+  background-color: #F6F7FB;
+  border-radius: 0px 0px 10px 0px;
+}
+.instagram {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+/* start-site */
+.btn {
+  position: absolute;
+  max-width: 301px;
+  width: 100%;
+  height: 93px;
+  top: 430px;
+  left: 100px;
+  background-color: #5EB6E1;
+  border-radius: 15px;
+  color: #000000;
+  font-size: 30px;
+  font-family: "Futura PT Medium"; 
+  font-weight: 900;
+}
+/* add about-section */
+/* .maindiv {
+  width: 100%;
+  display: flex;
+}
+.minimisebox {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: red;
+  margin-top: 720px;
+}
+.size {
+  max-width: 350px;
+  width: 100%;
+}
+.size1 {
+  max-width: 320px;
+  width: 100%;
+  margin-right: 221px;
+} */
+.division {
+  display: flex;
+}
+.topsizediv {
+  margin-top: 720px;
+  max-width: 1100px;
+  width: 100%; 
+  display: flex;
+  margin: 0 auto;
+  margin-top: 720px;
+  
+}
+.imgdiv1 {
+  background-image: url(../Images/workout1.jpg);
+  width: 100%;
+  height: 283px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  right: 21px;
+  text-align: center;
+}
+.imgdiv2 {
+  background-image: url(../Images/workout2.jpg);
+  width: 100%;
+  height: 283px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}
+.imgdiv3 {
+  background-image: url(../Images/workout3.jpg);
+  width: 100%;
+  height: 283px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 21px;
+  text-align: center;
+}
+.imgP1 {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Futura PT Medium"; 
+  line-height: 10px;
+  margin-top: 70px;
+  font-weight: 400;
+}
+.imgP2 {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Montserrat';
+  margin-top: 18px;
+}
+.smallimgdiv {
+  max-width: 137px;
+  width: 100%;
+  height: 39px;
+  background: rgb(161,69,252);
+  background: linear-gradient(28deg, rgba(161,69,252,1) 0%, rgba(131,58,180,1) 11%, rgba(253,79,43,1) 43%, rgba(253,29,29,1) 84%, rgba(253,156,45,1) 98%);
+  border-radius: 15px 50px;
+  color: #fff;
+  margin-top: 25px;
+}
+/* section 2 */
+/* left div */
+.section2maindiv {
+  display: flex;
+}
+.section2div {
+  max-width: 658px;
+  width: 100%;
+  height: 641;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.P2 {
+  font-size: 15px;
+  color: #FF6C2C;
+  line-break: 10px;
+  letter-spacing: 5px;
+  font-family: "Futura PT";
+}
+.H1 {
+  margin-top: 10px;
+  max-width: 571px;
+  width: 100%;
+  height: 58px;
+  color: #292F39;
+  font-size: 40px;
+}
+.H1::after {
+  content:'';
+  width: 110px;
+  height: 2px;
+  background-color: #5EB6E1;
+  display: block;
+  margin-top: 10px;
+}
+.P3 {
+  font-size: 30px;
+  color: #FF6C2C;
+  line-height: 45px;
+  margin-top: 50px;
+}
+.P4 {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #888a89;
+  line-height: 45px;
+}
+.btn2 {
+  max-width: 243px;
+  width: 100%;
+  height: 74px;
+  background-color: #5EB6E1;
+  font-size: 25px;
+  color: #000000;
+  border-radius: 5px;
+  margin-top: 71px;
+  font-weight: 600;
+}
+/* right div */
+.image1 {
+  background-image: url(../Images/measurement.jpg);
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+  height: 293px;
+  top: 350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  box-shadow: 6px 12px 20px  #f07502 ;
+}
+.image2 {
+  background-image: url(../Images/running-workout.jpg);
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+  height: 231px;
+  top: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  box-shadow: 6px 12px 20px  #a800eb ;
+}
+.image3 {
+  background-image: url(../Images/Hiit.jpg);
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+  height: 231px;
+  top: 380px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -200px;
+  margin-top: 150px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  box-shadow: 6px 12px 20px  #0284f5 ;
+}
+/* start page 2 */
+.divpage2 {
+  background-color: #222224;
+  width: 100%;
+  height: 540px;
+  margin-top: 200px;
+}
+.H2 {
+  padding-top: 130px;
+  color: #FFFFFF;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Futura PT Medium";
+}
+.H2::after {
+  content:'';
+  max-width: 115px;
+  width: 100%;
+  height: 2px;
+  background-color: #5EB6E1;
+  display: block;
+  margin-top: 30px;
+  margin-left: 620px;
+}
+.P5 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+/* page 2//section 3--IMAGES */
+/* .divimg {
+  display: inline-block;
+  position: relative;
+  /* axali */
+} */
+/* .size {
+  max-width: 447px;
+  width: 100%;
+  /* axali */
+} */
+/* .displey {
+  display: inline-block;
+  position: relative;
+  position: relative;
+} */
+/* .imgbox {
+  display: inline-block;
+  position: absolute;
+  background: rgba(0, 0, 0,  0.5803921568627451);
+  max-width: 447px;
+  width: 100%;
+  height: 134px;
+  margin-left: -451px;
+  margin-top: 210px;
+} */
+/* .P6, .P7, .P8 {
+  display: inline-block;
+  position: absolute;
+  vertical-align: middle;
+  color: #FFFFFF;
+  z-index: 15;
+  margin-left: -350px;
+  margin-top: 250px;
+  font-size: 45px;
+  /* text-align: center; */
+  /* axali */
+} */
+
+.defination {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.defination1 {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.auto0 {
+  margin-left: -4px;
+  margin-bottom: block;
+}
+.auto01 {
+  /* margin-left: -10px; */
+}
+
+/* .rightack {
+  display: inline-block;
+  position: absolute;
+} */
+/* .position {
+  position: absolute;
+  display: inline-block;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 45px;
+  z-index: 5;
+  white-space: nowrap;
+} */
+/* page 2//section 4//2nd part */
+.divpage3 {
+  width: 100%;
+  height: 540px;
+}
+.H3 {
+  padding-top: 130px;
+  color: #292F39;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Futura PT Medium";
+}
+.H3::after {
+  content:'';
+  max-width: 115px;
+  width: 100%;
+  height: 2px;
+  background-color: #5EB6E1;
+  display: block;
+  margin-top: 25px;
+  margin-left: 620px;
+}
+.P9 {
+  text-align: center;
+  color: #292F39;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 40px;
+  font-family: "Futura PT Medium";
+  text-transform: lowercase;
+}
+/* start 2nd part-box */
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.container .box {
+  position: relative;
+  margin: 20px;
+  display: inline-block;
+}
+.container .box .ImgBox {
+  position: relative;
+  overflow: hidden;
+}
+.container .box .ImgBox img {
+  max-width: 100%;
+  transition: 2s;
+}
+.container .box .details {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  text-align: center;
+  background: rgba(0,0,0,.8);
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  transform: scale(0);
+  transition: .5s;
+}
+.container .box .details .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.H4 {
+  font-size: 45px;
+}
+.h4 {
+  white-space: nowrap;
+  font-size: 40px;
+}
+.P10 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.P11 {
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: 2.5px;
+}
+.fa-facebook-f{
+  position: absolute;
+  top: 90%;
+  left: 40%;
+}
+.fa-twitter {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+}
+.fa-instagram {
+  position: absolute;
+  top: 90%;
+  left: 60%;
+}
+/* Button page 2 */
+.container1 {
+  position: relative;
+  z-index: 50;
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  height: 150px;
+}
+.container1 a {
+  position: relative;
+  max-width: 160px;
+  width: 100%;
+  height: 60px;
+  display: inline-block;
+  left: 600px;
+  top: 50px;
+}
+.container1 a span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block; 
+  background: #0e1538;
+  z-index: 28;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #040a29;
+  color: #FFFFFF;
+  background: #232323;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+  color: #FFFFFF;
+  background: #232323;
+}

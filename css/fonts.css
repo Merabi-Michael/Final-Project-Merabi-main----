@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Futura PT Demi";
+ src: url("../fonts/FuturaDemi.eot"); /* IE9*/
+ src: url("../fonts/FuturaDemi.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+ url("../fonts/FuturaDemi.woff2") format("woff2"), /* chrome、firefox */
+ url("../fonts/FuturaDemi.woff") format("woff"), /* chrome、firefox */
+ url("../fonts/FuturaDemi.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+ url("../fonts/FuturaDemi.svg#Futura PT Demi") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+ font-family: "Futura PT Medium"; 
+ src: url("../fonts/Futura PT Medium.eot"); 
+ src: url("../fonts/Futura PT Medium.eot?#iefix") format("embedded-opentype"), 
+ url("../fonts/Futura PT Medium.woff2") format("woff2"), 
+ url("../fonts/Futura PT Medium.woff") format("woff"), 
+ url("../fonts/Futura PT Medium.ttf") format("truetype"),
+ url("../fonts/Futura PT Medium.svg#Futura PT Medium") format("svg"); 
+}
+
+@font-face {
+ font-family: "Futura PT";
+  src: url("../fonts/FuturaPT-Bold.eot"); 
+  src: url("../fonts/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), 
+  url("../fonts/FuturaPT-Bold.woff2") format("woff2"),
+  url("../fonts/FuturaPT-Bold.woff") format("woff"), 
+  url("../fonts/FuturaPT-Bold.ttf") format("truetype"),
+  url("../fonts/FuturaPT-Bold.svg#Futura PT") format("svg");
+}
