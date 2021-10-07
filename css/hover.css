@@ -7,6 +7,9 @@
 .btn2:hover {
   box-shadow: 0 0 10px #4287f5, 0 0 40px #4287f5, 0 0 80px #4287f5, 0 0 100px #4287f5;
 }
+.btn3:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
 .container .box:hover .ImgBox img {
   transform: scale(1.2);
 }

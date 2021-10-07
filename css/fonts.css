@@ -27,3 +27,29 @@
   url("../fonts/FuturaPT-Bold.ttf") format("truetype"),
   url("../fonts/FuturaPT-Bold.svg#Futura PT") format("svg");
 }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/Raleway-SemiBold.eot");
+  src: url("../fonts/Raleway-SemiBold.eot?#iefix") format('embedded-opentype'),
+      url("../fonts/Raleway-SemiBold.woff2") format('woff2'),
+      url("../fonts/Raleway-SemiBold.woff") format('woff'),
+      url("../fonts/Raleway-SemiBold.ttf") format('truetype'),
+      url("../fonts/Raleway-SemiBold.svg#Raleway-SemiBold") format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArialMT';
+  src: url("../fonts/ArialMT.eot");
+  src: url("../fonts/ArialMT.eot?#iefix") format('embedded-opentype'),
+      url("../fonts/ArialMT.woff2") format('woff2'),
+      url("../fonts/ArialMT.woff") format('woff'),
+      url("../fonts/ArialMT.ttf") format('truetype'),
+      url("../fonts/ArialMT.svg#ArialMT") format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
