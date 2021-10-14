@@ -13,40 +13,40 @@
   <title>Final Projects//მერაბი</title>
   <script src="https://kit.fontawesome.com/962011f00c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/fonts.css">
-  <!-- <link rel="stylesheet" type="text/css" href="css/fonts1.css">
-  <link rel="stylesheet" type="text/css" href="css/fonts2.css"> -->
   <link rel="stylesheet" type="text/css" href="css/hover.css">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"> -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <script src="js/script.js"></script>
+  <link href="http://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
 </head>
 
 <body>
   <header>
     <div class="header-div">
-      <!-- <a href="#"><img class="logo" src="Images/Logo.svg" alt="logo-image"></a> -->
-      <nav>
+      <nav class="nav" id="navbarLinks">
         <ul class="nav-ul">
           <a href="#"><img class="logo" src="Images/Logo.svg" alt="logo-image"></a>
-          <li><a class="li1" href="#">Home</a></li>
-          <li><a class="li1 li11" href="#">About Us</a></li>
-          <li><a class="li1" href="#">clases</a></li>
-          <li><a class="li1" href="#">News</a></li>
-          <li><a class="li1" href="#">Contact</a></li>
+          <li><a class="li1" href="#section-1">Home</a></li>
+          <li><a class="li1 li11" href="#section-2">About Us</a></li>
+          <li><a class="li1" href="#section-3">clases</a></li>
+          <li><a class="li1" href="#section-4">News</a></li>
+          <li><a class="li1" href="#section-5">Contact</a></li>
           <div class="div1">
             <a href="#"><i class="fa fa-phone fa-spin" style="font-size:30px"></i></i></a>
             <a class="tel" href="tel:+00 111 222 123445">+00 111 222 123445</a>
           </div>
         </ul>
       </nav>
+      <div class="toggle-button" id="toggleButton">
+        <i class="fas fa-bars"></i>
+      </div>
     </div>
   </header>
   <!-- section 1 -->
-  <section>
+  <section id="section-1">
     <div class="section-img">
       <p class="P">Practice hard, play strong, pain is glory. ( Only For women )</p>
       <p class="P1 miniP">Solutions for moving better and feeling althier.</p>
@@ -65,17 +65,6 @@
       <div>
         <button class="btn" type="button>">Get Started</button>
       </div>
-      <!-- <div class="maindiv">
-        <div class="minimisebox">
-          <img class="size" src="Images/workout1.jpg" alt="workout-img">
-        </div>
-        <div class="minimisebox">
-          <img class="size1" src="Images/workout2.jpg" alt="workout-img">
-        </div>
-        <div class="minimisebox">
-          <img class="size" src="Images/workout3.jpg" alt="workout-img">
-        </div>
-      </div> -->
       <div class="division">
         <div class="topsizediv">
           <div class="imgdiv1">
@@ -104,7 +93,7 @@
     </div>
   </section>
   <!-- section 2 -->
-  <section>
+  <section id="section-2">
     <div class="section2maindiv">
       <div class="section2div">
         <p class="P2">ABOUT US</p>
@@ -123,40 +112,75 @@
     </div>
   </section>
   <!-- page 2//section 3 -->
-  <section>
+  <section id="section-3">
     <div class="divpage2">
       <h2 class="H2">Our Clasess</h2>
       <p class="P5">If you run a fitness gym, this is one slogan that can bring customers in. No one likes having to
         drive miles out of their way to go to the gym. It is always easier to have a gym that is actually close to home.
         Your body hears everything that your mind says.</p>
     </div>
-    <!-- <div class="divimg"> -->
-
-    <!-- <img class="size" src="Images/freestyle.jpg" alt="freestyle-img"> -->
-    <!-- <div class="imgbox"> -->
-    <!-- <p class="P6">Cardio Fitness</p> -->
-    <!-- </div> -->
-    <!-- <img class="size" src="Images/exercise.jpg" alt="rest-img">
-      <p class="P7">Fix The Mouse</p>
-      <img class="size" src="Images/Treadmill.jpg" alt="exercise-img">
-      <p class="P8">Cycle Training</p>
-      <img src="Images/dumbbell-muscle.jpg" alt="dumbbell-muscle-img"> -->
-    <!-- <p class="P9">Body Attack</p> -->
-    <!-- </div> -->
-    <div class="defination">
-      <img src="Images/freestyle.jpg" alt="freestyle-img">
-      <img class="auto0" src="Images/exercise.jpg" alt="exercise-img">
-      <img class="auto0" src="Images/Treadmill.jpg" alt="exercise Treadmill-img">
-      <!-- <p class="position">Cardio Fitness</p> -->
-    </div>
-    <div class="defination1">
-      <img src="Images/dumbbell-muscle.jpg" alt="dumbbell-muscle-img">
-      <img class="auto0" src="Images/Yoga.jpg" alt="Yoga-img">
-      <img class="auto0" src="Images/lifting.jpg" alt="lifting-img">
-    </div>
-
+    <!-- add slick -->
+    <section id="slick" class="backgroundcolor">
+      <div class="slider multiple-items">
+        <div class="slider_item">
+          <img src="Images/w1.jpg">
+        </div>
+        <div class="slider_item">
+          <img src="Images/freestyle.jpg" alt="freestyle-img">
+        </div>
+        <div class="slider_item">
+          <img src="Images/exercise.jpg" alt="exercise-img">
+        </div>
+        <div class="slider_item">
+          <img src="Images/Treadmilll.jpg" alt="exercise Treadmill-img">
+        </div>
+        <div class="slider_item">
+          <img src="Images/Yoga.jpg" alt="Yoga-img">
+        </div>
+        <div class="slider_item">
+          <img src="Images/lifting women.jpg" alt="lifting-img">
+        </div>
+        <div class="slider_item">
+          <img src="Images/workout.jpg" alt="workout-img">
+        </div>
+      </div>
+    </section>
+  
+    <!-- Jquery cdn link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick Js file -->
+    <script src="slick.min.js"></script>
+    <!-- Main js with code -->
+    <script src="script.js"></script>
   </section>
   <!-- page 2//section 4//2nd part -->
+  <script>
+    $(function(){
+  $('.multiple-items').slick({
+ infinite: true,
+ slidesToShow: 3,
+ slidesToScroll: 1,
+ arrows: true,
+ dots:true,
+ responsive: [
+     {
+       breakpoint: 768,
+       settings: {
+         slidesToShow: 2,
+         slidesToScroll: 1
+       }
+     },
+     {
+       breakpoint: 480,
+       settings: {
+         slidesToShow: 1,
+         slidesToScroll: 1
+       }
+     }
+   ]
+ });    
+});
+  </script>
   <section>
     <div class="divpage3">
       <h2 class="H3">Meet Our Team</h2>
@@ -211,12 +235,12 @@
       </div>
     </div>
     <div class="container1">
-      <a href="#"><span>see the whole team</span></a>
+      <a href=""><span>see the whole team</span></a>
     </div>
   </section>
 
   <!-- page 3//section 5// -->
-  <section>
+  <section id="section-4">
     <p class="P12">We Offer :</p>
     <div class="wrapper">
       <div> <img src="Images/tr.png" alt="Treadmill-img">
@@ -250,9 +274,6 @@
         </div>
       </div>
     </div>
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/Javascript"
@@ -265,8 +286,6 @@
         speed: 600,
         fade: true,
         cssEase: 'linear'
-        // prevArrow:'<i class="fas fa-angle-left   left_arrow">',
-        // nextArrow:'<i class="fas fa-angle-right right_arrow">',
       });
     </script>
     <h2 class="H6">Recent News</h2>
@@ -315,7 +334,7 @@
     </div>
   </section>
 
-  <form class="form-flex" action="#">
+  <form class="form-flex" action="#" id="section-5">
     <div>
       <h2 class="H7">Contact Us</h2>
       <div>
@@ -364,6 +383,38 @@
       </div>
       <i class="far fa-envelope"></i>
       <p class="P18">Bestrong@gmail.com</p>
+     </div>
+     <div class="iconsflex">
+      <i class="fab fa-instagram-square iconsfooter"></i>
+      <i class="fab fa-twitter-square iconsfooter"></i>
+      <i class="fab fa-facebook-square iconsfooter"></i>
+     </div>
+     <h3 class="H9">Popular Tags</h3>
+     <div class="footerdivright">
+        <p class="P19">WORKOUT</p>
+        <p class="P19">CROSSFIT</p>
+        <p class="P19">SHEDULE</p>
+        <p class="P19">TRAINERS</p>
+        <p class="P19">CARDIO</p>
+      </div>
+      <div class="footerdivright">
+        <p class="P19 P20">BOXING</p>
+        <p class="P19 P20">RELAXING</p>
+        <p class="P19 P20">NUTRITION</p>
+        <p class="P19 P20">GYM</p>
+        <p class="P19 P20">PLANS</p>
+      </div>
+      <div class="header-div2">
+        <nav>
+          <ul class="nav-ul">
+            <li><a class="li1" href="#section-1">Home</a></li>
+            <li><a class="li1 li11" href="#section-2">About Us</a></li>
+            <li><a class="li1" href="#section-3">clases</a></li>
+            <li><a class="li1" href="#section-4">News</a></li>
+            <li><a class="li1" href="#section-5">Contact</a></li>
+          </ul>
+            </div>
+            <p class="P21">©2021 Prelude by Gym-Co. All Rights Reserved</p>
      </div>
     </footer>
 </body>
