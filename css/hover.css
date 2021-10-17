@@ -35,7 +35,7 @@
   filter: blur(10px);
 }
 /* section-animation */
-i:hover {
+.I:hover {
   transition: 0s;
   color: #0f0;
   text-shadow:0 0 120px #0f0;

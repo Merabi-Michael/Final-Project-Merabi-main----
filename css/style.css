@@ -391,9 +391,6 @@
   margin-left: -4px;
   margin-bottom: block;
 }
-.auto01 {
-  /* margin-left: -10px; */
-}
 /* page 2//section 4//2nd part */
 .divpage3 {
   width: 100%;
@@ -1115,7 +1112,7 @@ top: 100px;
   font-size: 64px;
   transform: rotate(-30deg);
 }
-i
+.I
 {
   color: rgba(0, 0, 0, 0.5);
   transition: 1s;
