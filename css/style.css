@@ -1090,7 +1090,7 @@ input {
   background-color: #5EB6E1;
   padding: 30px;
 }
-/* animation */
+/* section-animation */
 * {
   margin: 0;
   padding: 0;
@@ -1147,6 +1147,7 @@ i
   font-size: 80px;
   color: goldenrod;
   z-index: 50;
+  font-family: "Futura PT";
 }
 .P22 {
   position: absolute;
@@ -1157,6 +1158,7 @@ i
   color: gold;
   z-index: 50;
   text-align: center;
+  font-family: "Futura PT Medium";
 }
 .btn5 {
   position: absolute;
