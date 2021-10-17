@@ -1,20 +1,35 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .btn:hover {
-  box-shadow: 6px 12px 20px blueviolet;
+  -webkit-box-shadow: 6px 12px 20px blueviolet;
+          box-shadow: 6px 12px 20px blueviolet;
 }
 .smallimgdiv:hover {
-  box-shadow: 6px 12px 20px  rgba(252,70,107,1) ;
+  -webkit-box-shadow: 6px 12px 20px  rgba(252,70,107,1) ;
+          box-shadow: 6px 12px 20px  rgba(252,70,107,1) ;
 }
 .btn2:hover {
-  box-shadow: 0 0 10px #4287f5, 0 0 40px #4287f5, 0 0 80px #4287f5, 0 0 100px #4287f5;
+  -webkit-box-shadow: 0 0 10px #4287f5, 0 0 40px #4287f5, 0 0 80px #4287f5, 0 0 100px #4287f5;
+          box-shadow: 0 0 10px #4287f5, 0 0 40px #4287f5, 0 0 80px #4287f5, 0 0 100px #4287f5;
 }
 .btn3:hover {
-  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  -webkit-box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+          box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 .container .box:hover .ImgBox img {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .container .box:hover .details {
-  transform: scale(1);
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
 }
 .container1 a::before,
 .container1 a::after {
@@ -22,9 +37,10 @@
   position: absolute;
   inset: 0;
   background: #CE5937;
-  background: -moz-radial-gradient(center, #CE5937 0%, #1C6EA4 55%, #C59237 100%);
-  background: -webkit-radial-gradient(center, #CE5937 0%, #1C6EA4 55%, #C59237 100%);
+  background: -o-radial-gradient(center, ellipse, #CE5937 0%, #1C6EA4 55%, #C59237 100%);
   background: radial-gradient(ellipse at center, #CE5937 0%, #1C6EA4 55%, #C59237 100%);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .container1 a:hover:before {
@@ -32,51 +48,110 @@
 }
 .container1 a:hover::after {
   inset: -3;
-  filter: blur(10px);
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
 }
 /* section-animation */
 .I:hover {
+  -webkit-transition: 0s;
+  -o-transition: 0s;
   transition: 0s;
   color: #0f0;
   text-shadow:0 0 120px #0f0;
 }
-@keyframes animate1 {
+@-webkit-keyframes animate1 {
   0%
   {
-    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
   100%
   {
-    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+@keyframes animate1 {
+  0%
+  {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100%
+  {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes animate2 {
+  0%
+  {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  100%
+  {
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
   }
 }
 @keyframes animate2 {
   0%
   {
-    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
   100%
   {
-    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
+  }
+}
+@-webkit-keyframes animate3 {
+  0%
+  {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100%
+  {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
 }
 @keyframes animate3 {
   0%
   {
-    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
   100%
   {
-    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+@-webkit-keyframes animate4 {
+  0%
+  {
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
+  }
+  100%
+  {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
 }
 @keyframes animate4 {
   0%
   {
-    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
   }
   100%
   {
-    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
 }
