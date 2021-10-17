@@ -1,6 +1,5 @@
 @media (max-width: 768px) {
-
-  .nav {
+.nav {
   background-color: red;
   display: none;
 } 
@@ -17,4 +16,3 @@
 .nav.active { display: block;
 }
 }
-  

@@ -34,3 +34,49 @@
   inset: -3;
   filter: blur(10px);
 }
+/* section-animation */
+i:hover {
+  transition: 0s;
+  color: #0f0;
+  text-shadow:0 0 120px #0f0;
+}
+@keyframes animate1 {
+  0%
+  {
+    transform: translateX(100%);
+  }
+  100%
+  {
+    transform: translateX(-100%);
+  }
+}
+@keyframes animate2 {
+  0%
+  {
+    transform: translateX(0%);
+  }
+  100%
+  {
+    transform: translateX(-200%);
+  }
+}
+@keyframes animate3 {
+  0%
+  {
+    transform: translateX(-100%);
+  }
+  100%
+  {
+    transform: translateX(100%);
+  }
+}
+@keyframes animate4 {
+  0%
+  {
+    transform: translateX(-200%);
+  }
+  100%
+  {
+    transform: translateX(0%);
+  }
+}
